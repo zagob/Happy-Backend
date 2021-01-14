@@ -10,4 +10,10 @@ module.exports = {
     cli: {
       migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
     },
+
+    "extra": {
+        "ssl": {
+          "rejectUnauthorized": false,
+        },
+      },
   }
